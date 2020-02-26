@@ -19,6 +19,7 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/$PRODUCT_WORKSPACE_FILE$
 
 # Gradle
 .idea/**/gradle.xml
