@@ -8,3 +8,8 @@
 2020-02-26 09:32:37 INFO  Main:38 - saved data reading
 2020-02-26 09:32:37 INFO  Main:43 - application start
 2020-02-26 09:32:37 INFO  Controller:75 - Main controller initializing
+2020-02-26 09:47:17 INFO  Main:38 - saved data reading
+2020-02-26 09:47:17 INFO  Main:43 - application start
+2020-02-26 09:47:18 INFO  Controller:75 - Main controller initializing
+2020-02-26 09:47:46 INFO  NewEditController:91 - new/edit window initializing
+2020-02-26 09:52:17 INFO  NewEditController:91 - new/edit window initializing
