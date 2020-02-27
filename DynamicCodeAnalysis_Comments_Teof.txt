@@ -1,0 +1,97 @@
+1. Clasa "ArrayTaskList" din directorul "model" 
+	
+	* Remove this "clone" implementation; use a copy constructor 
+	or copy factory instead.
+	=> S-a sters metoda clone() si s-a definit constructorul de copiere
+	
+2. Clasa "LinkedTaskList" din directorul "model"
+	
+	* Remove this unused private class setTask method.
+	=> S-a sters clasa
+	
+	* Remove this "clone" implementation; use a copy constructor 
+	or copy factory instead.
+	=> S-a sters metoda clone() si s-a definit constructorul de copiere
+
+3. Clasa "Task" din directorul "model"
+	
+	* Refactor this method to reduce its cognitive Complexity from 25 
+	to the 15 allowed.
+	=> S-a creat o noua metoda care contine toate instructiunile celui 
+	de-al doilea if.
+	
+	* Make "sdf" an instance variable
+	=> S-a sters keyword-ul "static" din definirea variabilei
+
+	* Use the opposite operator ("!=") instad
+	=> Expresia a fost modificata, pastrandu-se echivalenta logica
+
+4. Clasa "TaskList" din directorul "model"
+
+	* Replace this use of System.out or System.err by a logger.
+	=> S-a adaugat un nou field in clasa ( private static final Logger
+ 	log = Logger.getLogger(TaskList.class.getName());) si s-a folosit 
+	metoda log.info(...) pentru a salva mesajele
+
+	* "iterator" is defined in the "Iterable" interface and can be removed 
+	from this class
+	=> S-a sters metoda abstracta "iterator()"
+
+5. Clasa "TasksOperations" din directoul "model"
+
+	* Replace this use of System.out or System.err by a logger.
+	=> S-a adaugat un nou field in clasa ( private static final Logger
+ 	log = Logger.getLogger(TaskList.class.getName());) si s-a folosit 
+	metoda log.info(...) pentru a salva mesajele
+
+	* The type of the "tasks" object should be an interface such as "List"
+	rather than the implementation "ArrayList"
+	=> S-a schimbat tipul obiectului din ArrayList in List
+
+	* Make tasks a static final constant or non-public and provide accessors 
+	if needed.
+	=> Field-ul "tasks" a fost facut privat
+
+6. Clasa "DateService" din directorul "services"
+	
+	* Use static access with "java.util.Calendar" for "getInstance"
+	=> S-a modificat tipul din GeorgianCalendar in Calendar
+
+7. Clasa "TaskIO" din directorul "services"
+
+	* Rename this constant name to mathc the regular expression 
+	'^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'
+	=> S-au modificat denumirile secondsInDay, secondsInHour, secondsInMin in
+	SECONDS_IN_DAY, SECONDS_IN_HOUR, SECONDS_IN_MIN
+
+	* Change this "try" with a try-with-resources
+	=> S-a folosit try with resources si s-a sters partea cu "finally" din try
+	
+	* Define a constant instead of duplicating this literal "IO exception reading 
+	or wirting file" 4 times.
+	=> S-a definit si folosit constanta ERROR_MESSAGE =  "IO exception reading 
+	or wirting file"
+
+	* Put single-quotes around '[' to use the faster "lastIndexOf(char)" method.
+	=> S-au inlocuit ghilimelele cu caractere apostrof
+	
+	* This block of commentsed-out lines of code should be removed.
+	=> S-a sters comentariul
+		
+	* Put single-quotes around '[' to use the faster "indexOf(char)" method.
+	=> S-au inlocuit ghilimelele cu caractere apostrof
+
+	* Remove this unused "titleLenght" local variable.
+	=> S-a sters variabila locala
+
+	* Declare "hours"/"minutes"/"seconds" on a separate line.
+	=> Variabilele s-au definit separat, fiecare pe cate o linie.
+
+8. Clasa "TasksService" din directorul "services"
+
+	* This block of commentsed-out lines of code should be removed.
+	=> S-a sters comentariul
+
+	* Immediately return this expressin instead of assigning it to the temporaty 
+	variable "result"
+	=> S-a sters variabila locala si s-a returnat direct rezultatul
