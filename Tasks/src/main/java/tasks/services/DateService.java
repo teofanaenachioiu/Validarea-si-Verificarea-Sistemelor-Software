@@ -18,6 +18,7 @@ public class DateService {
     public DateService(TasksService service){
         this.service=service;
     }
+
     public static LocalDate getLocalDateValueFromDate(Date date){//for setting to DatePicker - requires LocalDate
         return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
 
