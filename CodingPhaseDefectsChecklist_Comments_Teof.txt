@@ -1,0 +1,28 @@
+C01: Logica din metoda isRepeded din clasa Task e inadecvata
+ 	public boolean isRepeated(){
+        	return !(this.interval == 0);
+    	}
+	Secventa a fost modifiata astfel: "return this.interval != 0;"
+
+C02: ?
+
+C03: - 
+
+C04: ?
+
+C05: Foarte probabil :D
+
+C06: Posibil, nu am in inspecatat in detaliu codul
+
+C07: Se arunca exceptii atunci la citire si scriere
+
+C08: Same
+
+C09: Parametrul metodei rewriteFile e de tip ObservableList, 
+	iar numele este doar "tasksList" (Clasa TaskIO, directorul model)
+
+C10: Posibil?
+
+C11: ?
+
+C12: 
