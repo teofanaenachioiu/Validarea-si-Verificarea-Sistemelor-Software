@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class Task implements Serializable, Cloneable {
+public class Task implements Serializable {
     private String title;
     private Date time;
     private Date start;
@@ -17,9 +17,9 @@ public class Task implements Serializable, Cloneable {
     private boolean active;
 
     private static final Logger log = Logger.getLogger(Task.class.getName());
-    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
-    public static SimpleDateFormat getDateFormat(){
+    public SimpleDateFormat getDateFormat(){
         return sdf;
     }
     public Task(String title, Date time){
@@ -32,6 +32,7 @@ public class Task implements Serializable, Cloneable {
         this.start = time;
         this.end = time;
     }
+
     public Task(String title, Date start, Date end, int interval){
         if (start.getTime() < 0 || end.getTime() < 0) {
             log.error("time below bound");
@@ -46,6 +47,15 @@ public class Task implements Serializable, Cloneable {
         this.end = end;
         this.interval = interval;
         this.time = start;
+    }
+
+    public Task(Task other) {
+        this.title = other.title;
+        this.time = other.time;
+        this.start = other.start;
+        this.end = other.end;
+        this.interval = other.interval;
+        this.active = other.active;
     }
 
     public String getTitle() {
@@ -93,25 +103,32 @@ public class Task implements Serializable, Cloneable {
 
     }
     public boolean isRepeated(){
-        return !(this.interval == 0);
-
+        return this.interval != 0;
     }
+
+    private Date computeNextTimeAfterRepetedAndActive(Date current){
+        Date timeBefore  = start;
+        Date timeAfter = start;
+        if (current.before(start)){
+            return start;
+        }
+        if ((current.after(start) || current.equals(start)) && (current.before(end) || current.equals(end))){
+            for (long i = start.getTime(); i <= end.getTime(); i += interval*1000){
+                if (current.equals(timeAfter))
+                    return new Date(timeAfter.getTime()+interval*1000);
+                if (current.after(timeBefore) && current.before(timeAfter))
+                    return timeBefore;//return timeAfter
+                timeBefore = timeAfter;
+                timeAfter = new Date(timeAfter.getTime()+ interval*1000);
+            }
+        }
+        return null; //check this one!!
+    }
+
     public Date nextTimeAfter(Date current){
-        if (current.after(end) || current.equals(end))return null;
+        if (current.after(end) || current.equals(end)) return null;
         if (isRepeated() && isActive()){
-            Date timeBefore  = start;
-            Date timeAfter = start;
-            if (current.before(start)){
-                return start;
-            }
-            if ((current.after(start) || current.equals(start)) && (current.before(end) || current.equals(end))){
-                for (long i = start.getTime(); i <= end.getTime(); i += interval*1000){
-                    if (current.equals(timeAfter)) return new Date(timeAfter.getTime()+interval*1000);
-                    if (current.after(timeBefore) && current.before(timeAfter)) return timeBefore;//return timeAfter
-                    timeBefore = timeAfter;
-                    timeAfter = new Date(timeAfter.getTime()+ interval*1000);
-                }
-            }
+            return computeNextTimeAfterRepetedAndActive(current);
         }
         if (!isRepeated() && current.before(time) && isActive()){
             return time;
@@ -171,14 +188,6 @@ public class Task implements Serializable, Cloneable {
                 ", interval=" + interval +
                 ", active=" + active +
                 '}';
-    }
-    @Override
-    protected Task clone() throws CloneNotSupportedException {
-        Task task  = (Task)super.clone();
-        task.time = (Date)this.time.clone();
-        task.start = (Date)this.start.clone();
-        task.end = (Date)this.end.clone();
-        return task;
     }
 }
 

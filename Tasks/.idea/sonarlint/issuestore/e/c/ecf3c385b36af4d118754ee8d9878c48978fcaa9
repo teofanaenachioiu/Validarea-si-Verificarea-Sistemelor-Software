@@ -1,0 +1,12 @@
+
+Isquid:S1444""2Make this "public static editNewStage" field final(¿‰‚×
+Ksquid:S1444#"/Make this "public static infoStage" field final(ßÏ¬Üùÿÿÿÿ
+Fsquid:S1444%"/Make this "public static mainTable" field final(ãÖÐ·
+ˆ"squid:ClassVariableVisibilityCheck"UMake tasksList a static final constant or non-public and provide accessors if needed.(ß·Š¢ÿÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck""XMake editNewStage a static final constant or non-public and provide accessors if needed.(¿‰‚×
+ˆ"squid:ClassVariableVisibilityCheck#"UMake infoStage a static final constant or non-public and provide accessors if needed.(ßÏ¬Üùÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck%"UMake mainTable a static final constant or non-public and provide accessors if needed.(ãÖÐ·
+Rsquid:S2696@"6Make the enclosing method "static" or remove this set.(ôé½ºûÿÿÿÿ
+Msquid:S2696Z"6Make the enclosing method "static" or remove this set.(ã¯›ð
+Lsquid:S2696|"6Make the enclosing method "static" or remove this set.(–žÌJ
+gsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(ÁÄûöþÿÿÿÿ

@@ -1,13 +1,13 @@
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\view\Main.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\TasksOperations.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\TasksService.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\ArrayTaskList.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\DateService.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\NewEditController.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\LinkedTaskList.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\Task.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\TaskIO.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\TaskInfoController.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\Controller.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\Notificator.java
-E:\Facultate\Semestrul 2\VVSS\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\TaskList.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\view\Main.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\TasksOperations.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\TaskInfoController.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\TaskList.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\Task.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\TasksService.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\DateService.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\ArrayTaskList.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\Controller.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\services\TaskIO.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\model\LinkedTaskList.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\NewEditController.java
+D:\Validarea-si-Verificarea-Sistemelor-Software\Tasks\src\main\java\tasks\controller\Notificator.java
