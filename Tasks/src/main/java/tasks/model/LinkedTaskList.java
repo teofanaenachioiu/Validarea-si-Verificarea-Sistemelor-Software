@@ -13,6 +13,15 @@ import static java.util.Objects.isNull;
 
 public class LinkedTaskList  extends TaskList {
     private static final Logger log = Logger.getLogger(LinkedTaskList.class.getName());
+
+    public LinkedTaskList() {
+    }
+
+    public LinkedTaskList(LinkedTaskList other) {
+        this.numberOfTasks = other.numberOfTasks;
+        this.last = other.last;
+    }
+
     private class LinkedTaskListIterator implements Iterator<Task>{
         private int cursor;
         private int lastCalled = -1;
@@ -135,10 +144,6 @@ public class LinkedTaskList  extends TaskList {
             return last;
         }
 
-        private void setTask(Task task) {
-            this.task = task;
-        }
-
         private void setLast(Node last) {
             this.last = last;
         }
@@ -175,13 +180,5 @@ public class LinkedTaskList  extends TaskList {
                 "numberOfTasks=" + numberOfTasks +
                 ", last=" + last +
                 '}';
-    }
-    @Override
-    protected LinkedTaskList clone() throws CloneNotSupportedException {
-        LinkedTaskList tasks = new LinkedTaskList();
-        for (Task t : this){
-            tasks.add(t);
-        }
-        return tasks;
     }
 }
