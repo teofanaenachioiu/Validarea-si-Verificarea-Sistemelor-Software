@@ -8,21 +8,21 @@ C02: ?
 
 C03: - 
 
-C04: ?
+C04: Exista erorile 
 
-C05: Foarte probabil :D
+C05: ?
 
 C06: Posibil, nu am in inspecatat in detaliu codul
 
-C07: Se arunca exceptii atunci la citire si scriere
+C07: Se arunca exceptii la citire si scriere
 
-C08: Same
+C08: Exista mesaje la erori
 
 C09: Parametrul metodei rewriteFile e de tip ObservableList, 
 	iar numele este doar "tasksList" (Clasa TaskIO, directorul model)
 
-C10: Posibil?
+C10: -
 
-C11: ?
+C11: sdf din Clasa Task
 
-C12: 
+C12: Nu e cazul
