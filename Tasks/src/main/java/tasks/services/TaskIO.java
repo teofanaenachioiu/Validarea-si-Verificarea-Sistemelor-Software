@@ -288,9 +288,9 @@ public class TaskIO {
     }
 
 
-    public static void rewriteFile(ObservableList<Task> tasksList) {
+    public static void rewriteFile(ObservableList<Task> observableTasksList) {
         LinkedTaskList taskList = new LinkedTaskList();
-        for (Task t : tasksList) {
+        for (Task t : observableTasksList) {
             taskList.add(t);
         }
         try {
