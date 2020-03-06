@@ -27,15 +27,13 @@ import java.util.Date;
 
 public class Controller {
     private static final Logger log = Logger.getLogger(Controller.class.getName());
-    public ObservableList<Task> tasksList;
-    TasksService service;
-    DateService dateService;
-
-    public static Stage editNewStage;
-    public static Stage infoStage;
+    private ObservableList<Task> tasksList;
+    private TasksService service;
+    private DateService dateService;
 
     public static TableView mainTable;
-
+    public static final Stage editNewStage = new Stage();
+    public static final Stage infoStage = new Stage();
     @FXML
     public  TableView tasks;
     @FXML
@@ -87,17 +85,16 @@ public class Controller {
         NewEditController.setClickedButton((Button) source);
 
         try {
-            editNewStage = new Stage();
             NewEditController.setCurrentStage(editNewStage);
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/new-edit-task.fxml"));
-            Parent root = loader.load();//getClass().getResource("/fxml/new-edit-task.fxml"));
+            Parent root = loader.load();
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
             editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
             editNewStage.setScene(new Scene(root, 600, 350));
             editNewStage.setResizable(false);
-            editNewStage.initOwner(Main.primaryStage);
+            editNewStage.initOwner(Main.getPrimaryStage());
             editNewStage.initModality(Modality.APPLICATION_MODAL);//??????
             editNewStage.show();
         }
@@ -114,15 +111,13 @@ public class Controller {
     @FXML
     public void showDetailedInfo(){
         try {
-            Stage stage = new Stage();
             FXMLLoader loader =new FXMLLoader(getClass().getResource("/fxml/task-info.fxml"));
             Parent root = loader.load();
-            stage.setScene(new Scene(root, 550, 350));
-            stage.setResizable(false);
-            stage.setTitle("Info");
-            stage.initModality(Modality.APPLICATION_MODAL);//??????
-            infoStage = stage;
-            stage.show();
+            infoStage.setScene(new Scene(root, 550, 350));
+            infoStage.setResizable(false);
+            infoStage.setTitle("Info");
+            infoStage.initModality(Modality.APPLICATION_MODAL);//??????
+            infoStage.show();
         }
         catch (IOException e){
             log.error("error loading task-info.fxml");
@@ -148,5 +143,4 @@ public class Controller {
         tasks.setItems(tasksList);
 
     }
-
 }
