@@ -15,3 +15,7 @@ X
 ,src/main/java/tasks/model/ArrayTaskList.java,f\7\f77a2442ed82eb8b7386f5c9a49162f894ad8a61
 ;
 Teolina.iml,6\c\6c7c9e3aa0e630a68f738a3a4d2f3b9dac0bc110
+W
+'src/main/java/tasks/model/TaskList.java,f\c\fc2a13256c261b5abd00e9188b5f42e29358bf6e
+S
+#src/main/java/tasks/model/Task.java,6\6\665dec39384a747ccf12fd544bf02f4a3d18695a
