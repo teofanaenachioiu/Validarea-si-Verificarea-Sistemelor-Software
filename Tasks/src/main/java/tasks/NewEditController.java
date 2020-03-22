@@ -1,4 +1,4 @@
-package tasks.controller;
+package tasks;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -13,13 +13,11 @@ import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
-import tasks.model.Task;
-import tasks.services.DateService;
-import tasks.services.TaskIO;
-import tasks.services.TasksService;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.Date;
 
 
@@ -183,10 +181,10 @@ public class NewEditController {
         return result;
     }
     private Task makeTask(){
-        Task result;
         String newTitle = fieldTitle.getText();
         Date startDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerStart.getValue());//ONLY date!!without time
         Date newStartDate = dateService.getDateMergedWithTime(txtFieldTimeStart.getText(), startDateWithNoTime);
+        Task result = new Task(newTitle, newStartDate);
         if (checkBoxRepeated.isSelected()){
             Date endDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerEnd.getValue());
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
@@ -195,27 +193,25 @@ public class NewEditController {
             try {
                 result = createTask(newTitle, newStartDate,newEndDate, newInterval);
             } catch (Exception e) {
-                e.printStackTrace();
+                log.error(e.getMessage());
             }
         }
-        else {
-            result = new Task(newTitle, newStartDate);
-        }
+
         boolean isActive = checkBoxActive.isSelected();
         result.setActive(isActive);
         return result;
     }
 
-    private Task createTask(String title, Date start, Date end, int interval) throws Exception {
+    public Task createTask(String title, Date start, Date end, int interval) throws TaskException {
         Date currentDateTime = new Date();
-        if(start.compareTo(start)<0)
-            throw new Exception("start < current date time");
+        if(start.compareTo(currentDateTime)<0)
+            throw new TaskException("start < current date time");
         if(end.compareTo(start)<0)
-            throw new Exception("end < start");
+            throw new TaskException("end < start");
         if(title.length()>255)
-            throw new Exception("length(title)>255");
-        if(title.length()==0)
-            throw new Exception("length(title)=0");
+            throw new TaskException("length(title)>255");
+        if(title.length()<=0)
+            throw new TaskException("length(title)<=0");
         return new Task(title,start,end,interval);
     }
 }

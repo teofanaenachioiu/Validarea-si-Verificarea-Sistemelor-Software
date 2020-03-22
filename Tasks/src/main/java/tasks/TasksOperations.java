@@ -1,4 +1,4 @@
-package tasks.model;
+package tasks;
 
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;

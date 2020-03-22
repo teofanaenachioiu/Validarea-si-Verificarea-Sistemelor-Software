@@ -124,3 +124,19 @@
 2020-03-06 15:26:37 INFO  Main:38 - saved data reading
 2020-03-06 15:26:37 INFO  Main:43 - application start
 2020-03-06 15:26:38 INFO  Controller:75 - Main controller initializing
+2020-03-22 14:22:35 INFO  Main:38 - saved data reading
+2020-03-22 14:22:35 INFO  Main:43 - application start
+2020-03-22 14:22:36 INFO  Controller:75 - Main controller initializing
+2020-03-22 16:09:13 INFO  Main:33 - saved data reading
+2020-03-22 16:09:13 INFO  Main:38 - application start
+2020-03-22 16:09:13 ERROR Main:52 - error reading main.fxml: 
+/D:/Validarea-si-Verificarea-Sistemelor-Software/Tasks/target/classes/fxml/main.fxml:9
+
+2020-03-22 16:10:24 INFO  Main:33 - saved data reading
+2020-03-22 16:10:24 INFO  Main:38 - application start
+2020-03-22 16:10:24 ERROR Main:52 - error reading main.fxml: 
+/D:/Validarea-si-Verificarea-Sistemelor-Software/Tasks/target/classes/fxml/main.fxml:9
+
+2020-03-22 16:11:16 INFO  Main:33 - saved data reading
+2020-03-22 16:11:16 INFO  Main:38 - application start
+2020-03-22 16:11:16 INFO  Controller:67 - Main controller initializing

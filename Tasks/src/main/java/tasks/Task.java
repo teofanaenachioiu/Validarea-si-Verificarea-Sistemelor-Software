@@ -1,7 +1,6 @@
-package tasks.model;
+package tasks;
 
 import org.apache.log4j.Logger;
-import tasks.services.TaskIO;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

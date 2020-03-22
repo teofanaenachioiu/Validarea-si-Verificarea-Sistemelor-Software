@@ -1,10 +1,9 @@
-package tasks.controller;
+package tasks;
 
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 import org.controlsfx.control.Notifications;
-import tasks.model.Task;
 
 import java.util.Date;
 
