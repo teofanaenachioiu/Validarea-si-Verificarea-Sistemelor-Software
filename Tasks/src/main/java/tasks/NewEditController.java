@@ -206,8 +206,8 @@ public class NewEditController {
         Date currentDateTime = new Date();
         if(start.compareTo(currentDateTime)<0)
             throw new TaskException("start < current date time");
-        if(end.compareTo(start)<0)
-            throw new TaskException("end < start");
+        if(end.compareTo(start)<=0)
+            throw new TaskException("end <= start");
         if(title.length()>255)
             throw new TaskException("length(title)>255");
         if(title.length()<=0)
