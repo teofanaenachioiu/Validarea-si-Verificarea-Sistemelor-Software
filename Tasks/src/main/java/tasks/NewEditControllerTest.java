@@ -18,7 +18,8 @@ class NewEditControllerTest {
     private Date endDate ;
     private int interval;
 
-    private NewEditControllerTest(){
+    @BeforeEach
+    void setUp() {
         defaultTitle = "default title";
 
         Calendar cal = Calendar.getInstance();
@@ -34,7 +35,6 @@ class NewEditControllerTest {
 
         interval = 2;
     }
-
 
     @Nested
     @DisplayName("ECP test class")
