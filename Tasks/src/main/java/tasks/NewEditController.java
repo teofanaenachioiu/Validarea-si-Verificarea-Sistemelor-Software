@@ -192,7 +192,11 @@ public class NewEditController {
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
             int newInterval = service.parseFromStringToSeconds(fieldInterval.getText());
             if (newStartDate.after(newEndDate)) throw new IllegalArgumentException("Start date should be before end");
-            result = new Task(newTitle, newStartDate,newEndDate, newInterval);
+            try {
+                result = createTask(newTitle, newStartDate,newEndDate, newInterval);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
         else {
             result = new Task(newTitle, newStartDate);
@@ -202,5 +206,16 @@ public class NewEditController {
         return result;
     }
 
-
+    private Task createTask(String title, Date start, Date end, int interval) throws Exception {
+        Date currentDateTime = new Date();
+        if(start.compareTo(start)<0)
+            throw new Exception("start < current date time");
+        if(end.compareTo(start)<0)
+            throw new Exception("end < start");
+        if(title.length()>255)
+            throw new Exception("length(title)>255");
+        if(title.length()==0)
+            throw new Exception("length(title)=0");
+        return new Task(title,start,end,interval);
+    }
 }

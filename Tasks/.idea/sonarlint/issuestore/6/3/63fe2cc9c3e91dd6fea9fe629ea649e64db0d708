@@ -1,0 +1,9 @@
+
+Gsquid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚úü¾.
+fsquid:S00112Ô"FDefine and throw a dedicated exception instead of using a generic one.(Œ²Âå8ã˜ü¾.
+bsquid:S1854Ò"CRemove this useless assignment to local variable "currentDateTime".(˜…ÿê8ïüù¾.
+esquid:S00112Ö"FDefine and throw a dedicated exception instead of using a generic one.(ì·’8§³ş¾.
+fsquid:S00112Ú"FDefine and throw a dedicated exception instead of using a generic one.(í‘’8‡ı¿.
+ksquid:S00112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(ç°ş¯ùÿÿÿÿ8äÓü¾.
+fsquid:S00112Ø"FDefine and throw a dedicated exception instead of using a generic one.(ïáÌ8ø¥€¿.
+Ssquid:S1481Ò"4Remove this unused "currentDateTime" local variable.(˜…ÿê8ïüù¾.
