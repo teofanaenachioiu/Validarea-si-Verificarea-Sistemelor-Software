@@ -74,7 +74,7 @@ class NewEditControllerTest {
         @Test
         void endInvalidTest() {
             // End date is before start date
-            assertThrows(TaskException.class, () -> controller.createTask("", endDate, startDate, interval));
+            assertThrows(TaskException.class, () -> controller.createTask(defaultTitle, endDate, startDate, interval));
         }
     }
 
@@ -188,7 +188,7 @@ class NewEditControllerTest {
 
         @Tag("date")
         @Test
-        void endInvalidTest3() {
+        void startInvalidTest() {
             // Start date is before current date
             cal.set(Calendar.YEAR, 2000);
             cal.set(Calendar.MONTH, Calendar.APRIL);
