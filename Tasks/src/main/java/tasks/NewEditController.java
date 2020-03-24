@@ -198,9 +198,9 @@ public class NewEditController {
 
     public Task createTask(String title, Date start, Date end, int interval) throws TaskException {
         Date currentDateTime = new Date();
-        if(start.compareTo(currentDateTime)<0)
-            throw new TaskException("start < current date time");
-        if(end.compareTo(start)<=0)
+        if(start.before(currentDateTime) || start.equals(currentDateTime))
+            throw new TaskException("start <= current date time");
+        if(start.after(end) || start.equals(end))
             throw new TaskException("end <= start");
         if(title.length()>255)
             throw new TaskException("length(title)>255");
