@@ -1,0 +1,3 @@
+
+gsquid:S2583?"DChange this condition so that it does not always evaluate to "false"(İ±äÜüÿÿÿÿ8òè•.
+squid:S2159?"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(İ±äÜüÿÿÿÿ8òè•.
