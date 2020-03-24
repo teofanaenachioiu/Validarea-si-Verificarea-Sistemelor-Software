@@ -140,3 +140,51 @@
 2020-03-22 16:11:16 INFO  Main:33 - saved data reading
 2020-03-22 16:11:16 INFO  Main:38 - application start
 2020-03-22 16:11:16 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:17:15 INFO  Main:33 - saved data reading
+2020-03-24 18:17:15 INFO  Main:38 - application start
+2020-03-24 18:17:16 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:17:59 INFO  TasksOperations:18 - Wed Mar 04 12:22:00 EET 2020
+2020-03-24 18:17:59 INFO  TasksOperations:19 - Fri Apr 10 12:00:00 EEST 2020
+2020-03-24 18:18:11 ERROR Controller:96 - Error loading new-edit-task.fxml
+2020-03-24 18:18:15 ERROR Controller:96 - Error loading new-edit-task.fxml
+2020-03-24 18:19:07 INFO  Main:33 - saved data reading
+2020-03-24 18:19:07 INFO  Main:38 - application start
+2020-03-24 18:19:08 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:19:18 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:25:33 INFO  Main:33 - saved data reading
+2020-03-24 18:25:33 INFO  Main:38 - application start
+2020-03-24 18:25:34 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:26:09 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:27:31 INFO  Main:33 - saved data reading
+2020-03-24 18:27:31 INFO  Main:38 - application start
+2020-03-24 18:27:32 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:27:43 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:29:09 INFO  Main:33 - saved data reading
+2020-03-24 18:29:09 INFO  Main:38 - application start
+2020-03-24 18:29:10 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:29:27 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:29:51 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:30:11 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:30:12 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:30:29 INFO  Main:33 - saved data reading
+2020-03-24 18:30:29 INFO  Main:38 - application start
+2020-03-24 18:30:30 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:30:35 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:30:38 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:31:13 INFO  Main:33 - saved data reading
+2020-03-24 18:31:13 INFO  Main:38 - application start
+2020-03-24 18:31:14 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:31:17 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:31:19 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:31:19 ERROR Controller:96 - Error loading new-edit-task.fxml
+2020-03-24 18:31:21 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:31:21 ERROR Controller:96 - Error loading new-edit-task.fxml
+2020-03-24 18:31:33 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:31:33 ERROR Controller:96 - Error loading new-edit-task.fxml
+2020-03-24 18:31:36 INFO  TaskInfoController:25 - task info window initializing
+2020-03-24 18:31:39 INFO  TaskInfoController:25 - task info window initializing
+2020-03-24 18:32:18 INFO  Main:33 - saved data reading
+2020-03-24 18:32:18 INFO  Main:38 - application start
+2020-03-24 18:32:18 INFO  Controller:67 - Main controller initializing
+2020-03-24 18:32:22 INFO  NewEditController:91 - new/edit window initializing
+2020-03-24 18:32:24 INFO  NewEditController:91 - new/edit window initializing

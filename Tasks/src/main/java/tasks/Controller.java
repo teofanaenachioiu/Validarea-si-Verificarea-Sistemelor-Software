@@ -92,7 +92,7 @@ public class Controller {
             editNewStage.initModality(Modality.APPLICATION_MODAL);//??????
             editNewStage.show();
         }
-        catch (IOException e){
+        catch (Exception e){
             log.error("Error loading new-edit-task.fxml");
         }
     }

@@ -164,7 +164,7 @@ public class NewEditController {
         try {
             result = makeTask();
         }
-        catch (RuntimeException e){
+        catch (Exception e){
             incorrectInputMade = true;
             try {
                 Stage stage = new Stage();
@@ -180,7 +180,7 @@ public class NewEditController {
         }
         return result;
     }
-    private Task makeTask(){
+    private Task makeTask() throws TaskException {
         String newTitle = fieldTitle.getText();
         Date startDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerStart.getValue());//ONLY date!!without time
         Date newStartDate = dateService.getDateMergedWithTime(txtFieldTimeStart.getText(), startDateWithNoTime);
@@ -188,15 +188,9 @@ public class NewEditController {
         if (checkBoxRepeated.isSelected()){
             Date endDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerEnd.getValue());
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
-            int newInterval = service.parseFromStringToSeconds(fieldInterval.getText());
-            if (newStartDate.after(newEndDate)) throw new IllegalArgumentException("Start date should be before end");
-            try {
-                result = createTask(newTitle, newStartDate,newEndDate, newInterval);
-            } catch (Exception e) {
-                log.error(e.getMessage());
-            }
+            int interval = service.parseFromStringToSeconds(fieldInterval.getText());
+            result = createTask(newTitle, newStartDate, newEndDate, interval);
         }
-
         boolean isActive = checkBoxActive.isSelected();
         result.setActive(isActive);
         return result;
