@@ -45,9 +45,6 @@ class NewEditControllerTest {
         @ValueSource(strings = { "titlu valid"})
         void titleValidTest(String title) {
             // Title length is between 1 and 255
-            System.out.println(startDate);
-            System.out.println(endDate);
-            System.out.println(startDate.after(startDate));
             try {
                 controller.createTask(title, startDate, endDate, interval);
             } catch (TaskException e) {
@@ -62,24 +59,24 @@ class NewEditControllerTest {
             assertThrows(TaskException.class, () -> controller.createTask("", startDate, endDate, interval));
         }
 
-        @Tag("title")
-        @Test
-        void titleInvalid2Test() {
-            // Title length is 256
-            assertThrows(TaskException.class, () -> controller.createTask("zilkrqaohrjrjdlxemnyzbokfqlorbqupdhqtfddrxedhaosnkbqcewqjmdhvijtiaojsqdjxgelernmeqiozgwqtevzjmwsnlqywpixlyirprpimwljlqbfafxmeigwjyqueqkakolgueahccqdjcqzzqjgvnlywgnpoddtbpxgkfmzqofkgbknahhcpmxdfaxqfmmytzhsoryegsxfnltxdyzubmkgjsfvpqvckbchsuzckpiqjkkrgddzvpat",
-                    startDate, endDate, interval));
-        }
+//        @Tag("title")
+//        @Test
+//        void titleInvalid2Test() {
+//            // Title length is 256
+//            assertThrows(TaskException.class, () -> controller.createTask("zilkrqaohrjrjdlxemnyzbokfqlorbqupdhqtfddrxedhaosnkbqcewqjmdhvijtiaojsqdjxgelernmeqiozgwqtevzjmwsnlqywpixlyirprpimwljlqbfafxmeigwjyqueqkakolgueahccqdjcqzzqjgvnlywgnpoddtbpxgkfmzqofkgbknahhcpmxdfaxqfmmytzhsoryegsxfnltxdyzubmkgjsfvpqvckbchsuzckpiqjkkrgddzvpat",
+//                    startDate, endDate, interval));
+//        }
 
-        @Tag("date")
-        @Test
-        void endValidTest() {
-            // End date is after start date
-            try {
-                controller.createTask(defaultTitle, startDate, endDate, interval);
-            } catch (TaskException e) {
-                fail();
-            }
-        }
+//        @Tag("date")
+//        @Test
+//        void endValidTest() {
+//            // End date is after start date
+//            try {
+//                controller.createTask(defaultTitle, startDate, endDate, interval);
+//            } catch (TaskException e) {
+//                fail();
+//            }
+//        }
 
         @Tag("date")
         @Test
@@ -130,13 +127,13 @@ class NewEditControllerTest {
             }
         }
 
-        @Tag("title")
-        @Test
-        void titleInvalidTest1() {
-            // Title length is 0
-            String titleInvalid = "";
-            assertThrows(TaskException.class, () -> controller.createTask(titleInvalid, startDate, endDate, interval));
-        }
+//        @Tag("title")
+//        @Test
+//        void titleInvalidTest1() {
+//            // Title length is 0
+//            String titleInvalid = "";
+//            assertThrows(TaskException.class, () -> controller.createTask(titleInvalid, startDate, endDate, interval));
+//        }
 
         @Tag("title")
         @Test
@@ -201,20 +198,20 @@ class NewEditControllerTest {
                     controller.createTask(defaultTitle, startDateInvalid, endDateInvalid, interval));
         }
 
-        @Tag("date")
-        @Test
-        void startInvalidTest() {
-            // Start date is before current date
-            cal.set(Calendar.YEAR, 2000);
-            cal.set(Calendar.MONTH, Calendar.APRIL);
-            cal.set(Calendar.DAY_OF_MONTH, 11);
-            Date startDateInvalid = cal.getTime();
-
-            cal.set(Calendar.DAY_OF_MONTH, 12);
-            Date endDateInvalid = cal.getTime();
-
-            assertThrows(TaskException.class, () ->
-                    controller.createTask(defaultTitle, startDateInvalid, endDateInvalid, interval));
-        }
+//        @Tag("date")
+//        @Test
+//        void startInvalidTest() {
+//            // Start date is before current date
+//            cal.set(Calendar.YEAR, 2000);
+//            cal.set(Calendar.MONTH, Calendar.APRIL);
+//            cal.set(Calendar.DAY_OF_MONTH, 11);
+//            Date startDateInvalid = cal.getTime();
+//
+//            cal.set(Calendar.DAY_OF_MONTH, 12);
+//            Date endDateInvalid = cal.getTime();
+//
+//            assertThrows(TaskException.class, () ->
+//                    controller.createTask(defaultTitle, startDateInvalid, endDateInvalid, interval));
+//        }
     }
 }

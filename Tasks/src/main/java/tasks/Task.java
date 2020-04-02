@@ -105,7 +105,7 @@ public class Task implements Serializable {
         return this.interval != 0;
     }
 
-    private Date computeNextTimeAfterRepetedAndActive(Date current){
+    public Date computeNextTimeAfterRepetedAndActive(Date current){
         Date timeBefore  = start;
         Date timeAfter = start;
         if (current.before(start)){
