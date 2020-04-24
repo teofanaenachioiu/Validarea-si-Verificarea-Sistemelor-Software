@@ -13,7 +13,7 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.spy;
 
-class ArrayTaskListTest {
+class ArrayTaskListTestWithSpy {
 
     private ArrayTaskList repo;
 

@@ -52,7 +52,7 @@ class TasksServiceTestWithMock {
     }
 
     @Test
-    void filterTasksTasksInList() {
+    void filterTasksOneTaskInList() {
         Task task1 = new Task("task1", new Date(2020, 3, 11));
         task1.setActive(true);
         Task task2 = new Task("task2", new Date(2020, 3, 11), new Date(2020, 3, 17), 3600);

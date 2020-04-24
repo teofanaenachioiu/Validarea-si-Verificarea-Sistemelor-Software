@@ -31,7 +31,7 @@ class IntegrationTestServiceRepoTasks {
     }
 
     @Test
-    void filterTasksTasksInInterval() {
+    void filterTasksOneTaskInInterval() {
         Calendar cal = Calendar.getInstance();
         cal.set(Calendar.YEAR, 2020);
         cal.set(Calendar.MONTH, Calendar.APRIL);
@@ -48,7 +48,7 @@ class IntegrationTestServiceRepoTasks {
     }
 
     @Test
-    void filterTasksNoTaskInInterval() {
+    void filterTasksNoTasksInInterval() {
         assertIterableEquals(Collections.emptyList(),
                 service.filterTasks(new Date(2020, Calendar.MARCH, 1),
                         new Date(2020, Calendar.MARCH, 13)));
