@@ -1,0 +1,22 @@
+    public Iterable<Task> incoming(Date start, Date end) {
+        log.info(start);
+        log.info(end);
+        ArrayList<Task> incomingTasks = new ArrayList<>();
+        for (Task t : tasks) {
+            Date nextTime = null;
+            if (start.before(end) && !start.equals(end)) {
+                if (t.isRepeated() && t.isActive()) {
+                    nextTime = t.computeNextTimeAfterRepetedAndActive(start);
+                }
+                 else if (!t.isRepeated() && start.before(t.getTime()) && t.isActive()) {
+                    nextTime = t.getTime();
+                }
+            }
+            if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
+                incomingTasks.add(t);
+                log.info(t.getTitle());
+            }
+        }
+        return incomingTasks;
+    }
+

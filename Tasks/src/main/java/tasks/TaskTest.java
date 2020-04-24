@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("Main test class")
-class NewEditControllerTest {
+class TaskTest {
     private NewEditController controller = new NewEditController();
     private String defaultTitle;
     private Date startDate;

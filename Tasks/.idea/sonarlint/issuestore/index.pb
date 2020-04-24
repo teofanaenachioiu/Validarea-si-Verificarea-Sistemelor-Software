@@ -17,3 +17,13 @@ S
 #src/main/java/tasks/Controller.java,9\9\99081aaace607dbff09a828715577f94507dd6a5
 Z
 *src/main/java/tasks/NewEditController.java,9\4\94e4a7e98a6012368dcfdcd3682915c946f42f32
+U
+%src/main/java/tasks/TasksService.java,2\5\25547364c1452805604d539a7cdd78c62e47455b
+F
+src/main/java/tasks/hh,1\0\10198c5d01656e13a002e9797e1bd2696fa297c7
+X
+(src/main/java/tasks/TasksOperations.java,5\2\520c1f1896031948a83be41833efd4e1e5afb40c
+\
+,src/main/java/tasks/TasksOperationsTest.java,3\7\37f6411cb4e9aebc05901037fb42aecf276829f8
+Q
+!src/main/java/tasks/TaskList.java,8\4\84a8c46f5795850e200fcfaefc734bbf77afed71
