@@ -14,6 +14,11 @@ public class ArrayTaskList extends TaskList{
     private int currentCapacity;
     private static final Logger log = Logger.getLogger(ArrayTaskList.class.getName());
 
+    public ArrayTaskList(){
+        currentCapacity = 10;
+        this.tasks = new Task[currentCapacity];
+    }
+
     public ArrayTaskList(ArrayTaskList other) {
         this.tasks = other.tasks;
         this.numberOfTasks = other.numberOfTasks;
@@ -48,10 +53,7 @@ public class ArrayTaskList extends TaskList{
             lastCalled = -1;
         }
     }
-    public ArrayTaskList(){
-        currentCapacity = 10;
-        this.tasks = new Task[currentCapacity];
-    }
+
 
     @Override
     public Iterator<Task> iterator() {
