@@ -540,3 +540,6 @@
 2020-04-24 21:17:23 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
 2020-04-24 21:17:23 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
 2020-04-24 21:17:23 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-24 21:38:06 INFO  Main:33 - saved data reading
+2020-04-24 21:38:06 INFO  Main:38 - application start
+2020-04-24 21:38:07 INFO  Controller:67 - Main controller initializing
