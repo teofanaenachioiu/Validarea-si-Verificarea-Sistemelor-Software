@@ -120,6 +120,7 @@ public class Task implements Serializable {
                 timeBefore = timeAfter;
                 timeAfter = new Date(timeAfter.getTime()+ interval*1000);
             }
+            return timeAfter;
         }
         return null; //check this one!!
     }

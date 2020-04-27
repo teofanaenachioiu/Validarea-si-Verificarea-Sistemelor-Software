@@ -19,7 +19,7 @@ public class TaskIO {
 
     private static final Logger log = Logger.getLogger(TaskIO.class.getName());
 
-    private TaskIO(){
+    public TaskIO(){
 
     }
 
@@ -89,7 +89,8 @@ public class TaskIO {
         BufferedWriter bufferedWriter = new BufferedWriter(out);
         Task lastTask = tasks.getTask(tasks.size() - 1);
         for (Task t : tasks) {
-            bufferedWriter.write(getFormattedTask(t));
+            String formattedTask = getFormattedTask(t);
+            bufferedWriter.write(formattedTask);
             bufferedWriter.write(t.equals(lastTask) ? ';' : '.');
             bufferedWriter.newLine();
         }
@@ -109,7 +110,7 @@ public class TaskIO {
 
     }
 
-    public  void writeText(TaskList tasks, File file) throws IOException {
+    public void writeText(TaskList tasks, File file) throws IOException {
         FileWriter fileWriter = new FileWriter(file);
         try {
             write(tasks, fileWriter);
