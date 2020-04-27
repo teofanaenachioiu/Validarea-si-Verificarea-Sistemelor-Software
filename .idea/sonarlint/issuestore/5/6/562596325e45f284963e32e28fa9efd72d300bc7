@@ -1,0 +1,4 @@
+
+Ysquid:UselessImportCheck"0Remove this unused import 'org.mockito.Mockito'.(áòöˆýÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+]squid:S1192"FDefine a constant instead of duplicating this literal "task1" 3 times.(÷ö¹Œ
