@@ -620,3 +620,23 @@
 2020-04-27 15:20:20 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
 2020-04-27 15:20:20 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
 2020-04-27 15:20:20 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 15:25:41 INFO  TasksOperations:18 - Sat Apr 11 15:25:41 EEST 2020
+2020-04-27 15:25:41 INFO  TasksOperations:19 - Mon Apr 27 15:25:41 EEST 2020
+2020-04-27 15:25:41 INFO  TasksOperations:18 - Mon Mar 01 00:00:00 EET 3920
+2020-04-27 15:25:41 INFO  TasksOperations:19 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 15:25:48 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 15:25:48 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 15:25:48 INFO  TasksOperations:32 - task1
+2020-04-27 15:25:48 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 15:25:48 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 15:25:48 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 15:25:48 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 15:25:56 ERROR ArrayTaskList:99 - not existing index
+2020-04-27 15:26:07 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 15:26:07 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 15:26:07 INFO  TasksOperations:32 - task1
+2020-04-27 15:26:07 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 15:26:07 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 15:26:07 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 15:26:07 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 15:26:16 ERROR ArrayTaskList:99 - not existing index
