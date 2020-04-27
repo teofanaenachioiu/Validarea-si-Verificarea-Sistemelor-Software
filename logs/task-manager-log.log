@@ -758,3 +758,99 @@
 2020-04-27 15:58:25 INFO  TasksOperations:19 - Mon Apr 27 15:58:25 EEST 2020
 2020-04-27 15:58:25 INFO  TasksOperations:18 - Mon Mar 01 00:00:00 EET 3920
 2020-04-27 15:58:25 INFO  TasksOperations:19 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 16:12:31 ERROR ArrayTaskList:99 - not existing index
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:32 - task1
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:32 - task1
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 16:12:31 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Sat Apr 11 16:12:32 EEST 2020
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Mon Apr 27 16:12:32 EEST 2020
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Mon Mar 01 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 26 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sun Mar 28 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:32 - title4
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sun Mar 28 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:32 - title4
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sun Mar 21 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:32 - title3
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Mon Mar 29 00:00:00 EEST 3920
+2020-04-27 16:12:32 INFO  TasksOperations:32 - title4
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 26 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Wed Mar 10 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Mon Mar 22 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:32 - title3
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Sat Mar 20 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:18 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:12:32 INFO  TasksOperations:19 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:13:18 ERROR ArrayTaskList:99 - not existing index
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - task1
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - task1
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Apr 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Tue Apr 13 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat May 01 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Mon May 03 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat Apr 11 16:13:19 EEST 2020
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Mon Apr 27 16:13:19 EEST 2020
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Mon Mar 01 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 26 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sun Mar 28 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - title4
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sun Mar 28 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - title4
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sun Mar 21 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - title3
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Mon Mar 29 00:00:00 EEST 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - title4
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 26 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sat Mar 27 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Thu Mar 11 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Wed Mar 10 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Mon Mar 22 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:32 - title3
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Sat Mar 20 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Sat Mar 13 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Fri Mar 19 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:18 - Fri Mar 12 00:00:00 EET 3920
+2020-04-27 16:13:19 INFO  TasksOperations:19 - Thu Mar 11 00:00:00 EET 3920

@@ -1,4 +1,4 @@
-package java.tasks;
+package tasks;
 
 import javafx.collections.FXCollections;
 import org.junit.jupiter.api.BeforeEach;
