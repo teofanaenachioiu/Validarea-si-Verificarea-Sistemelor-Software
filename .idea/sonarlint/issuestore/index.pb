@@ -1,6 +1,4 @@
 
-Q
-!src/main/java/tasks/TaskTest.java,6\c\6cc264cd49d9979f16dacfc9f7d2f03a089980d5
 Z
 *src/main/java/tasks/NewEditController.java,9\4\94e4a7e98a6012368dcfdcd3682915c946f42f32
 V
@@ -11,8 +9,6 @@ M
 src/main/java/tasks/Main.java,2\f\2fc0d70289bf6c468fddf0497f0aede1bf8754a3
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-\
-,src/main/java/tasks/TasksOperationsTest.java,3\7\37f6411cb4e9aebc05901037fb42aecf276829f8
 c
 3src/test/java/tasks/IntegrationTestServiceRepo.java,9\3\93a9093ff65161e899b49cc23ab5e0576b4ffdba
 a
@@ -29,3 +25,7 @@ X
 (src/main/java/tasks/TasksOperations.java,5\2\520c1f1896031948a83be41833efd4e1e5afb40c
 h
 8src/test/java/tasks/IntegrationTestServiceRepoTasks.java,b\0\b080ce0df5c6483030d2f19a6220a55fcde5d1d9
+Q
+!src/test/java/tasks/TaskTest.java,f\1\f10ac86e3538b9b23a879b28ddb827f9d616ef84
+\
+,src/test/java/tasks/TasksOperationsTest.java,f\4\f4ce8a540f5648dc77b57d23c755e680f7cec7a4
